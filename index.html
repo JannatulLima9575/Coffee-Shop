@@ -7,6 +7,9 @@
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- favIcon -->
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+
     <!-- daisyui CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -16,38 +19,64 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
+  <body class="font-sans">
     <!-- header Section  -->
     <section class="bg-black text-white">
-        <div class="w-11/12 mx-auto flex justify-between items-center">
-          <!-- Logo -->
-          <div class="flex items-center h-20">
-            <p class="font-bold text-3xl">C<span class="text-[#ebb392]">o</span>ffee Sh<span class="text-[#ebb392]">o</span>p</p>
-          </div>
-      
-          <!-- Navbar Items -->
-          <div class="flex-grow flex justify-center">
-            <ul class="menu menu-horizontal gap-6 text-xl ml-12">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Review</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Blogs</a></li>
-            </ul>
-          </div>
-      
-          <!-- Icons -->
-          <div class="flex gap-5 text-2xl">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
+      <div class="w-11/12 mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex items-center h-20">
+          <p class="font-bold text-3xl">
+            C<span class="text-[#ebb392]">o</span>ffee Sh<span
+              class="text-[#ebb392]"
+              >o</span
+            >p
+          </p>
         </div>
-      </section>
-      
+
+        <!-- Navbar Items -->
+        <div class="flex-grow flex justify-center">
+          <ul class="menu menu-horizontal gap-6 text-xl ml-12">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+
+        <!-- Icons -->
+        <div class="flex gap-5 text-2xl">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section>
+    <div class="hero min-h-[90vh]" style="background-image: url(./images/banner.png)">
+        <div class="hero-overlay"></div>
+        <div class="w-11/12 mx-auto flex text-left justify-start">
+        <div class="text-white">
+            <h1 class="mb-5 text-6xl font-bold">FRESH COFFEE IN <br>THE MORNING</h1>
+            <p class="mb-5 text-xl text-[#f5efef99] max-w-md">
+            Start your day with the perfect cup of coffee! Indulge in the rich aroma and smooth flavors of our freshly brewed blends.
+            </p>
+            <button class="btn btn-warning font-bold text-white">Get it Now</button>
+        </div>
+        </div>
+    </div>
+    </section>
 
     <script src="js/script.js"></script>
   </body>
