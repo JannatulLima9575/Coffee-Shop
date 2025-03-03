@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Shop</title>
@@ -26,8 +26,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  </head>
-  <body class="font-sans">
+</head>
+<body class="font-sans bg-black">
     <!-- header Section  -->
     <section class="bg-black text-white">
       <div class="w-11/12 mx-auto flex justify-between items-center">
@@ -63,21 +63,66 @@
     </section>
 
     <!-- Banner Section -->
-    <section>
-    <div class="hero min-h-[90vh]" style="background-image: url(./images/banner.png)">
+    <section class="pb-20">
+      <div
+        class="hero min-h-[90vh] bg-cover bg-center bg-no-repeat"
+        style="background-image: url(./images/banner.png)"
+      >
         <div class="hero-overlay"></div>
         <div class="w-11/12 mx-auto flex text-left justify-start">
-        <div class="text-white">
-            <h1 class="mb-5 text-6xl font-bold">FRESH COFFEE IN <br>THE MORNING</h1>
+          <div class="text-white">
+            <h1 class="mb-5 text-6xl font-bold">
+              FRESH COFFEE IN <br />THE MORNING
+            </h1>
             <p class="mb-5 text-xl text-[#f5efef99] max-w-md">
-            Start your day with the perfect cup of coffee! Indulge in the rich aroma and smooth flavors of our freshly brewed blends.
+              Start your day with the perfect cup of coffee! Indulge in the rich
+              aroma and smooth flavors of our freshly brewed blends.
             </p>
-            <button class="btn btn-warning font-bold text-white">Get it Now</button>
+            <button class="btn btn-warning font-bold text-white">
+              Get it Now
+            </button>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-black h-[60vh]">
+    <p class="text-white text-center text-6xl font-semibold">ABOUT US</p> <!-- text-black to text-white -->
+    <div class="w-11/12 pt-10 mx-auto hero bg-base-200 bg-black">
+        <div class="hero-overlay"></div>
+        <div class="hero-content flex-col lg:flex-row">
+            <div class="">
+                <img
+                src="images/about.jpg"
+                class="h-[50vh] rounded-lg shadow-2xl" />
+            </div>
+
+            <div class="text-white">
+                <h1 class="text-4xl font-bold">What Makes Our Coffee Special?</h1>
+                <p class="py-6 max-w-md text-xl text-[#f5efef99]">
+                    Our coffee stands out with its rich aroma, premium beans, and perfectly balanced flavors, delivering an unforgettable taste in every sip!
+                </p>
+                <button class="btn btn-warning font-bold text-white">Learn More</button>
+            </div>
         </div>
     </div>
     </section>
 
+
+    <section>
+     <p>OUR MENU</p> 
+     <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+     </div>  
+    </section>
+
+
     <script src="js/script.js"></script>
-  </body>
+</body>
 </html>
